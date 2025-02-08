@@ -45,7 +45,8 @@
 			var converted = TemperatureCoversion(t, u);
 
 			   
-			   alert("Temperature is "+converted.t1+" in "+converted.u1);
+			$('#result').text("Temperature is "+converted.t1+" in "+converted.u1);
+			
 			});
 			function validate(t){
 				if(isNaN(t)){
